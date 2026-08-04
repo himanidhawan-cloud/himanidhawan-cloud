@@ -29,11 +29,9 @@
 
 ### 🔐 SecureDeploy
 
-**SecureDeploy** is my major DevSecOps project focused on integrating
-security into the software delivery lifecycle.
+**SecureDeploy** is my major DevSecOps project focused on integrating security into the software delivery lifecycle.
 
-The goal is to create a system where a Pull Request can be automatically
-analysed for security issues before it reaches deployment.
+The goal is to create a system where a Pull Request can be automatically analysed for security issues before it reaches deployment.
 
 ### 🔄 Planned Workflow
 
@@ -347,5 +345,5 @@ I believe the best way to learn engineering is by building real systems,
 understanding why they fail, and continuously improving them.
 
 </td> </tr> </table>
-<h2>🤝 Let's Connect</h2> <p align="center"> <a href="https://github.com/himanidhawan-cloud"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> <!-- Add LinkedIn when your profile is ready --> </p>
-<p align="center"> <b>Thanks for visiting my profile! 🚀</b> </p> <p align="center"> <i>Learning by building, breaking, debugging and improving.</i> </p> ```
+<h2>🤝 Let's Connect</h2> <p align="center"> <a href="https://github.com/himanidhawan-cloud"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </p>
+<p align="center"> <b>Thanks for visiting my profile! 🚀</b> </p> <p align="center"> <i>Learning by building, breaking, debugging and improving.</i> </p> 
