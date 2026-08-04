@@ -9,36 +9,66 @@
 </p>
 
 <p align="center">
-  Building secure CI/CD pipelines and learning how security can be integrated
-  throughout the software delivery lifecycle.
+  Building secure and automated software delivery systems while learning
+  DevSecOps, cloud security and software engineering.
+</p>
+
+<p align="center">
+  <a href="https://github.com/himanidhawan-cloud">
+    <img src="https://img.shields.io/badge/GitHub-himanidhawan--cloud-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
 </p>
 
 ---
 
-## 🚀 What I'm Working On
+## 🚀 Currently Working On
 
 ### 🔐 SecureDeploy
 
-A DevSecOps platform designed to automate security checks for GitHub Pull Requests
-and provide a controlled path from **code → security validation → deployment**.
+**SecureDeploy** is my major DevSecOps project focused on integrating
+security into the software delivery lifecycle.
 
-**Planned workflow:**
+The goal is to create a system where a Pull Request can be automatically
+analysed for security issues before it reaches deployment.
+
+### 🔄 Planned Workflow
 
 ```text
-GitHub PR
-    ↓
-Webhook
-    ↓
-Jenkins
-    ↓
-SonarQube + OSV
-    ↓
-Security Engine
-    ↓
-Security Scorecard
-    ↓
-Security Gate
-    ↓
-Deployment Approval
-    ↓
-Docker → AWS
+                    GitHub Pull Request
+                            │
+                            ▼
+                     GitHub Webhook
+                            │
+                            ▼
+                         Jenkins
+                            │
+                ┌───────────┴───────────┐
+                ▼                       ▼
+            SonarQube                  OSV
+          Code Analysis        Dependency Scanning
+                │                       │
+                └───────────┬───────────┘
+                            ▼
+                     Security Engine
+                            │
+                            ▼
+                  Security Scorecard
+                            │
+                            ▼
+                      Security Gate
+                            │
+                     ┌──────┴──────┐
+                     │             │
+                   FAIL           PASS
+                     │             │
+                     ▼             ▼
+                  Report      Deployment Request
+                                   │
+                                   ▼
+                              Admin Approval
+                                   │
+                                   ▼
+                              Docker Build
+                                   │
+                                   ▼
+                               AWS Deploy
