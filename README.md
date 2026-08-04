@@ -73,6 +73,7 @@ SonarQube   OSV
               │
               ▼
           AWS Deploy
+```
 </td> </tr> </table>
 <table> <tr> <td width="100%">
 ✨ Planned Features
