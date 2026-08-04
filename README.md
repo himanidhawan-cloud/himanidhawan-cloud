@@ -2,88 +2,43 @@
   <img src="./file.png" width="100%" />
 </p>
 
-# Hi, I'm Himani 👋
+<h1 align="center">Hi, I'm Himani 👋</h1>
 
-### DevSecOps | Cloud Security | Software Engineering
+<p align="center">
+  <b>DevSecOps • Cloud Security • Software Engineering</b>
+</p>
 
-I'm a 3rd-year student interested in building secure and automated
-software delivery systems.
+<p align="center">
+  Building secure CI/CD pipelines and learning how security can be integrated
+  throughout the software delivery lifecycle.
+</p>
 
-## 🔐 Currently Working On
+---
 
-### SecureDeploy
-A DevSecOps platform that integrates:
+## 🚀 What I'm Working On
 
-- GitHub Pull Requests
-- Jenkins CI/CD
-- SonarQube
-- OSV dependency scanning
-- Security scorecards
-- Docker
-- AWS deployment
-- Authentication & RBAC
-- Admin deployment approval
+### 🔐 SecureDeploy
 
-## 🛠️ Tech Stack
+A DevSecOps platform designed to automate security checks for GitHub Pull Requests
+and provide a controlled path from **code → security validation → deployment**.
 
-**Languages**
-- Python
-- C++ / Java
+**Planned workflow:**
 
-**DevSecOps**
-- Git
-- GitHub
-- Jenkins
-- Docker
-- SonarQube
-- OSV
-
-**Cloud**
-- AWS
-- IAM
-
-**Backend**
-- FastAPI
-- PostgreSQL
-
-## 📚 Currently Learning
-
-- Data Structures & Algorithms
-- Linux
-- AWS
-- DevSecOps
-- Cloud Security
-- CI/CD
-
-## 🚀 Projects
-
-🔐 **SecureDeploy**  
-DevSecOps security and deployment platform.
-
-🛡️ **GitHub PR Security Bot**  
-Automated security analysis for pull requests.
-
-⚙️ **Secure CI/CD Pipeline**  
-Jenkins pipeline integrating testing and security scanning.
-
-## 🎯 Goals
-
-- Build strong DevSecOps projects
-- Become placement-ready in DSA
-- Learn cloud security
-- Build production-oriented systems
-- Contribute to open source
-<!--
-**himanidhawan-cloud/himanidhawan-cloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```text
+GitHub PR
+    ↓
+Webhook
+    ↓
+Jenkins
+    ↓
+SonarQube + OSV
+    ↓
+Security Engine
+    ↓
+Security Scorecard
+    ↓
+Security Gate
+    ↓
+Deployment Approval
+    ↓
+Docker → AWS
