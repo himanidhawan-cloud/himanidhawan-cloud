@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./devsecops-banner.png" width="100%" />
+</p>
+
 # Hi, I'm Himani 👋
 
 ### DevSecOps | Cloud Security | Software Engineering
